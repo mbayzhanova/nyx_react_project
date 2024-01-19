@@ -8,9 +8,15 @@ function Navbar() {
   return (
     <nav className={style.navbar}>
         <div className={style.navContainer}>
-            <button>искать</button>
+          <div className={style.navFind}>
+            <img className={style.Icon} src={find} alt='lll'></img>
+            <p className={style.navFindBtn}>искать</p>
+          </div>
             <a href="/" className={style.navbarLogo}>NYX_MAGIC_KRG</a>
-            <button className={style.navbarBtn}>Войти</button>
+            <div className={style.navIcons}>
+              <img className={style.Icon} src={bascet} alt='lll'></img>
+              <img src={account} alt='lll'></img>
+            </div>
         </div>
         
         <div className={style.navMenu}>

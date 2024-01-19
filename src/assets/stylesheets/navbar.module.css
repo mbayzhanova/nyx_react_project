@@ -10,7 +10,14 @@
 .navContainer {
     display: flex;
     justify-content: space-between;
-    padding: 30px 67px;
+    padding: 25px 67px;
+}
+
+.navFind {
+    display: flex;
+    color: rgba(0, 0, 0, 0.80);
+    font-size: 20px;
+    font-weight: 400;
 }
 
 .navbarLogo {
@@ -19,15 +26,29 @@
     color: black;
 }
 
+.navIcons {
+    display: flex;
+    align-items: center;
+}
+
+.Icon {
+    margin-right: 30px;
+}
+
 .navMenu {
     background-color: rgba(219.71, 45.41, 129.07, 0.80);
+    margin-bottom: 20px;
 }
 
 .navLinks {
     display: flex;
     justify-content: space-between;
-    padding: 11px 300px;
+    padding: 11px;
     list-style: none;
+    margin: auto;
+    max-width: 800px;
+    color: white;
+    font-size: 23px;
 }
 
 .navLinkItem {

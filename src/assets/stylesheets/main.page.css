@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Montserrat';
+}
+
+/* .App {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: antiquewhite;
+} */
+
+.carousel {
+    overflow: hidden;
+    width: 700px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+.inner {
+    white-space: nowrap;
+    transition: transform 0.3s;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.carousel-item {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    background-color: #ffff;
+}
+
+.carousel-img {
+    width: 100%;
+    padding: 0 20px;
+}
+
+.carousel-item-text {
+    font-size: 1.15rem;
+    margin: 40px 0;
+    padding: 0 20px;
+    white-space: normal;
+    color: #617d98;
+}
+
+.carousel-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.button-arrow {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px
+}
+
+.indicators {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.indicator-button {
+    border: none;
+    cursor: pointer;
+}
+
+.indicators > button {
+    margin: 5px;
+    background: none;
+}
+
+.indicator-symbol {
+    color: #26343f;
+}
+  
+.indicator-symbol-active {
+    color: #ffffff;
+}
