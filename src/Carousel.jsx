@@ -7,14 +7,19 @@ export const Carousel = () => {
     const items = [
         {
             title: "PaulasChoice",
-            description: "Description",
+            // description: "Description",
             icon: require("../src/assets/photos/paulasPhoto.svg"),
         },
         {
             title: "CharlotteTilbury",
-            description: "Description",
+            // description: "Description",
             icon: require("../src/assets/photos/charlotteTilburyMain.svg"),
         },
+        {
+          title: "PaulasChoice",
+          // description: "Description",
+          icon: require("../src/assets/photos/KikoMainPhoto.svg"),
+      },
     ];
     const updateIndex = (newIndex) => {
       if (newIndex < 0) {

@@ -5,20 +5,11 @@ body {
     font-family: 'Montserrat';
 }
 
-/* .App {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    height: 100vh;
-    background-color: antiquewhite;
-} */
-
 .carousel {
     overflow: hidden;
-    width: 700px;
+    width: 100vw; /* Ширина 100% экрана */
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     justify-content: center;
 }
 
@@ -32,12 +23,13 @@ body {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    height: 200px;
+    height: 70vh; /* Высота 70% экрана (можете изменить по своему усмотрению) */
     background-color: #ffff;
 }
 
 .carousel-img {
-    width: 100%;
+    max-width: 100%; /* Чтобы изображение не выходило за пределы контейнера */
+    max-height: 100%; /* Чтобы изображение не выходило за пределы контейнера */
     padding: 0 20px;
 }
 
@@ -59,7 +51,11 @@ body {
     background: none;
     border: none;
     cursor: pointer;
-    margin-top: 20px
+    margin-top: 20px;
+}
+
+.material-symbols-outlined {
+    color: rgba(219.71, 45.41, 129.07, 0.80)
 }
 
 .indicators {

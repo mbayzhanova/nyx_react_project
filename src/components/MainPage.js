@@ -1,6 +1,6 @@
 import React from 'react';
 import style from '../assets/stylesheets/main.page.css';
-import mainImg from '../assets/photos/paulasPhoto.svg'
+// import mainImg from '../assets/photos/paulasPhoto.svg'
 
 function MainPage() {
   return (
