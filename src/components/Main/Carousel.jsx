@@ -5,15 +5,15 @@ function CarouselComponent() {
   return (
     <Carousel>
       <Carousel.Item>
-      <img className="carousel-img" src={require("../../assets/photos/paulasPhoto.svg")} />
+      <img className="carousel-img" alt='lll' src={require("../../assets/photos/paulasPhoto.svg")} />
       </Carousel.Item>
 
       <Carousel.Item>
-      <img className="carousel-img" src={require("../../assets/photos/charlotteTilburyMain.svg")} />
+      <img className="carousel-img" alt='lll' src={require("../../assets/photos/charlotteTilburyMain.svg")} />
       </Carousel.Item>
 
       <Carousel.Item>
-      <img className="carousel-img" src={require("../../assets/photos/KikoMainPhoto.svg")} />
+      <img className="carousel-img" alt='lll' src={require("../../assets/photos/KikoMainPhoto.svg")} />
       </Carousel.Item>
     </Carousel>
   );

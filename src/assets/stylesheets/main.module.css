@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500&display=swap');
+
+/* PreFooter */
+
+.PreFooterContainer {
+    background-color: rgba(219.71, 45.41, 129.07, 0.80);
+    margin: 20px auto;
+    font-family: 'Montserrat';
+}
+
+.PreFooterMain {
+    display: flex;
+    max-width: 1268px;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.PreFooter {
+    display: flex;
+    align-items: center;
+    max-width: 328px;
+}
+
+.PreFooter p {
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-left: 14px;
+}
+
+/* RecommendationCard */
+
+.recommendationCard {
+    max-width: 1262px;
+    margin: 50px auto;
+    font-family: 'Montserrat';
+}
+
+.recommendationCardContainer h1 {
+    font-size: 32px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+}
+
+.imagesCardContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imageCard {
+    position: relative;
+    overflow: hidden;
+}
+
+.imageCard img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.imageText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 1;
+}
+
+.imageText p {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.imageText a {
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: underline;
+}
