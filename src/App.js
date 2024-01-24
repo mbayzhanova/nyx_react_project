@@ -1,25 +1,19 @@
 import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import React from 'react';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
-import CarouselComponent from './components/Main/Carousel';
-import ErrorBoundary from './components/Main/ErrorBoundary';
-import PreFooter from './components/Main/PreFooter';
-import RecommendationCard from './components/Main/RecommendationCard';
+import Main from './Main';
+import RegistrationPage from './components/account/RegisterationPage';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <ErrorBoundary>
-        <CarouselComponent/>
-      </ErrorBoundary>
-      <RecommendationCard />
-      <PreFooter />
-      <Footer />
-
-    </div>
-    
+    <Router>
+      <div className="App">
+        <Routes>
+          <Route path='/main' element={<Main />} />
+          <Route path='/registration' element={<RegistrationPage />} />
+        </Routes>
+      </div>
+    </Router>    
   );
 }
 
