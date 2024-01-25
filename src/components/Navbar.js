@@ -3,7 +3,7 @@ import style from '../assets/stylesheets/navbar.module.css';
 import bascet from '../assets/icons/bascet.svg';
 import find from '../assets/icons/magnifier.svg';
 import account from '../assets/icons/profile.svg';
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 
 function Navbar() {
@@ -17,8 +17,13 @@ function Navbar() {
     <nav className={style.navbar}>
         <div className={style.navContainer}>
           <div className={style.navFind}>
-            <img className={style.Icon} src={find} alt='lll'></img>
-            <p className={style.navFindBtn}>искать</p>
+            <form class="form-inline my-2 my-lg-0">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                <img className={style.Icon} src={find} alt='lll'></img>
+              </button>
+              <input class="form-control mr-sm-2" type="search" placeholder="искать" aria-label="Search"></input>
+            </form>
+
           </div>
             <a href="#section" className={style.navbarLogo}>NYX_MAGIC_KRG</a>
             <div className={style.navIcons}>

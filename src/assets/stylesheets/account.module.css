@@ -1,3 +1,39 @@
-.RegisterContainer {
-    max-width: 500px;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600&display=swap');
+
+.Container {
+    font-family: 'Montserrat';
+    font-weight: 500px;
+    margin: 0 auto;
+}
+
+.registerContainer {
+    max-width: 668px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.registerContainer h1 {
+    margin-bottom: 48px;
+    font-size: 32px;
+}
+
+.registrationForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.registrationForm button {
+    height: 38px;
+    width: 262px;
+    margin: 8px 21px;
+    background: rgba(219.71, 45.41, 129.07, 0.80);
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+    border: none;
 }
