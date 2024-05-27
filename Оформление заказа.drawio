@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-26T19:42:26.538Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="R98N_paGsVKSIZR4pwMv" version="24.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-27T08:51:21.188Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="2qBS3MPPeGs7va60WxnX" version="24.4.8" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="1193" dy="1035" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="827" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="1489" dy="813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="827" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -29,25 +29,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sTnMUY-ruMFpIgcUdMvu-10" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Қажетті тауар түрін таңдау&lt;/font&gt;" style="html=1;whiteSpace=wrap;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="500" y="500" width="110" height="50" as="geometry" />
+          <mxGeometry x="490" y="500" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="sTnMUY-ruMFpIgcUdMvu-49" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="sTnMUY-ruMFpIgcUdMvu-12" target="sTnMUY-ruMFpIgcUdMvu-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sTnMUY-ruMFpIgcUdMvu-12" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;Тауар туралы ақпарат (бағасы сипаттамасы т.б)&lt;/font&gt;" style="html=1;whiteSpace=wrap;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="670" y="495" width="130" height="60" as="geometry" />
+          <mxGeometry x="640" y="490" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sTnMUY-ruMFpIgcUdMvu-50" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="sTnMUY-ruMFpIgcUdMvu-15" target="sTnMUY-ruMFpIgcUdMvu-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sTnMUY-ruMFpIgcUdMvu-15" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;В корзину батырмасы&lt;/font&gt;" style="html=1;whiteSpace=wrap;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="680" y="600" width="110" height="50" as="geometry" />
+          <mxGeometry x="820" y="500" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="sTnMUY-ruMFpIgcUdMvu-56" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="sTnMUY-ruMFpIgcUdMvu-17" target="sTnMUY-ruMFpIgcUdMvu-55" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sTnMUY-ruMFpIgcUdMvu-17" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;Корзинада тапсырыс батырмасы&lt;/font&gt;" style="html=1;whiteSpace=wrap;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="510" y="597.5" width="120" height="55" as="geometry" />
+          <mxGeometry x="820" y="580" width="120" height="55" as="geometry" />
         </mxCell>
         <mxCell id="sTnMUY-ruMFpIgcUdMvu-40" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" parent="1" source="sTnMUY-ruMFpIgcUdMvu-19" target="sTnMUY-ruMFpIgcUdMvu-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -112,16 +112,24 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="sTnMUY-ruMFpIgcUdMvu-55" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Тапсырыс формасын толтыру (карта номері, cvv)&lt;/font&gt;" style="html=1;whiteSpace=wrap;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="325" y="600" width="140" height="60" as="geometry" />
+          <mxGeometry x="635" y="580" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sTnMUY-ruMFpIgcUdMvu-60" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" parent="1" source="sTnMUY-ruMFpIgcUdMvu-57" target="sTnMUY-ruMFpIgcUdMvu-59" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="sTnMUY-ruMFpIgcUdMvu-60" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="sTnMUY-ruMFpIgcUdMvu-57" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="535" y="675" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="sTnMUY-ruMFpIgcUdMvu-57" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Тапсырыс беру&lt;/font&gt;" style="html=1;whiteSpace=wrap;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="340" y="700" width="110" height="50" as="geometry" />
+          <mxGeometry x="480" y="580" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="sTnMUY-ruMFpIgcUdMvu-59" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
-          <mxGeometry x="380" y="780" width="30" height="30" as="geometry" />
+          <mxGeometry x="520" y="660" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NeEcIuhULOgXCwJWWLJc-1" value="қате" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="120" y="384" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NeEcIuhULOgXCwJWWLJc-2" value="дұрыс" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="310" y="380" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
